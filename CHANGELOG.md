@@ -1,5 +1,12 @@
 # Changelog
 
+## 12 August 2016
+
+Forked from [https://github.com/preboot/angular2-webpack]()
+
+- Changed port from 8080 to 3000
+- Moved config files to `/config/` where possible
+
 ## 3 July 2016
 
 - Use html5mode instead of hash navigation.
