@@ -251,6 +251,13 @@ module.exports = function makeWebpackConfig() {
    * Reference: https://github.com/wbuchwalter/tslint-loader
    */
   config.tslint = {
+    configuration: {
+      rulesDirectory: 'node_modules/codelyzer',
+      rules: (() => {
+        var config = require('./tslint.json');
+        return config.rules;
+      })()
+    },
     emitErrors: false,
     failOnHint: false
   };

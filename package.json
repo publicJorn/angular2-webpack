@@ -11,7 +11,7 @@
     "server": "webpack-dev-server --config config/webpack.config.js --inline --progress --port 3000",
     "webdriver-update": "webdriver-manager update",
     "webdriver-start": "webdriver-manager start",
-    "lint": "tslint --config config/tslint.json --force \"src/**/*.ts\"",
+    "lint": "tslint --rules-dir node_modules/codelyzer --config config/tslint.json --force \"src/**/*.ts\"",
     "e2e": "protractor config/protractor.conf.js",
     "e2e-live": "protractor config/protractor.conf.js --elementExplorer",
     "pretest": "npm run lint",
