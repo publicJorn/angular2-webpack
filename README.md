@@ -1,7 +1,5 @@
 # angular2-webpack
 
-**Note: This guide is following the Angular's [Style Guide](http://angular.io/styleguide) so I will be changing conventions here and there eventually. You are free to use your own conventions with this starter.**
-
 A complete, yet simple, starter for Angular 2 using Webpack.
 
 This seed repo serves as an Angular 2 starter for anyone looking to get up and running with Angular 2 and TypeScript fast. Using [Webpack](http://webpack.github.io/) for building our files and assisting with boilerplate. We're also using Protractor for our end-to-end story and Karma for our unit tests.

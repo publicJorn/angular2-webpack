@@ -4,7 +4,8 @@ import {
   addProviders
 } from '@angular/core/testing';
 
-import { TestComponentBuilder } from '@angular/compiler/testing';
+// import { TestComponentBuilder } from '@angular/compiler/testing';
+import { TestComponentBuilder } from '@angular/core/testing';
 
 import { AboutComponent } from './about.component';
 

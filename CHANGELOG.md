@@ -1,5 +1,9 @@
 # Changelog
 
+## TODO
+
+- Check async/lazy loading:  [https://github.com/brandonroberts/angular2-webpack/commit/6eca5a3e71dfd517551be14453eba611eef0e5df]()
+
 ## 12 August 2016
 
 Forked from [https://github.com/preboot/angular2-webpack]()
